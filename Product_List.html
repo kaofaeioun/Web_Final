@@ -53,19 +53,10 @@
 				</ul>
 			</div>
 
-			<span class="shopping_cart toggle">
-				<a href="">
-					<img src="images/shopping_cart.png">
-				</a>
-				<nav class="droplist">
-					<ul>
-						<li><div class="small"><img src="images/featured_p1.png" alt=""></div></li>
-						<li><div class="small"><img src="images/featured_p1.png" alt=""></div></li>
-						<li><div class="small"><img src="images/featured_p1.png" alt=""></div></li>
-						<li><div class="small"><img src="images/featured_p1.png" alt=""></div></li>
-					</ul>
-				</nav>
+			<span class="shopping_cart">
+				<a href=""><img src="images/shopping_cart.png"></a>
 			</span>
+
 
 			<img class="line2" src="images/line.jpg">
 		</div>
@@ -76,53 +67,51 @@
 				<h2>Billing Address</h2>
 				<hr class="line">
 				<div class="form_detail bill">
-					<ul>
-						<li>
+						<label>
 							<div class="form_left">
 								First Name</br><input type="text" name="Firstname" id="" required>
 							</div>
 							<div class="form_right">
 								Last Name</br><input type="text" name="Lastname" id="" required>
 							</div>
-						</li>
-						<li>
+						</label>
+						<label>
 							<div class="form_left email">
 								E-mail Address</br><input type="email" name="E-mail" id="" required>
 							</div>
-						</li>
-						<li>
+						</label>
+						<label>
 							<div class="form_left">
 								Company</br><input type="text" name="Company" id="">
 							</div>
 							<div class="form_right">
 								Address</br><input type="text" name="Address" id="" required>
 							</div>
-						</li>
-						<li>
+						</label>
+						<label>
 							<div class="form_left">
 								City</br><input type="text" name="City" id="" required>
 							</div>
 							<div class="form_right">
 								Zip/Postal Code</br><input type="text" name="Code" id="" required>
 							</div>
-						</li>
-						<li>
+						</label>
+						<label>
 							<div class="form_left">
 								Country</br><input type="text" name="Country" id="" required>
 							</div>
 							<div class="form_right">
 								State/Province</br><input type="text" name="State" id="" required>
 							</div>
-						</li>
-						<li>
+						</label>
+						<label>
 							<div class="form_left">
 								Telephone</br><input type="phone" name="Telephone" id="" required>
 							</div>
 							<div class="form_right">
 								Fax</br><input type="text" name="Fax" id="">
 							</div>
-						</li>
-					</ul>
+						</label>
 				</div>
 				<hr class="line">
 				<h2>Payment Information</h2>
@@ -215,46 +204,52 @@
 						<img src="images/arrow_l.png" onclick="javascript:divrefresh();">
 					</div>
 				</div>
-				<div class="brands" id="brands_1" style="display:block;">
-					<a href=""><img src="images/brands1.png"></a>
-					<a href=""><img src="images/brands2.png"></a>
-					<a href=""><img src="images/brands3.png"></a>
-					<a href=""><img src="images/brands4.png"></a>
-					<a href=""><img src="images/brands5.png"></a>
-				</div>
-				<div class="brands" id="brands_2" style="display:none;">
-					<a href=""><img src="images/brands5.png"></a>
-					<a href=""><img src="images/brands3.png"></a>
-					<a href=""><img src="images/brands2.png"></a>
-					<a href=""><img src="images/brands1.png"></a>
-					<a href=""><img src="images/brands4.png"></a>
-				</div>
-				<div class="brands" id="brands_3" style="display:none;">
-					<a href=""><img src="images/brands2.png"></a>
-					<a href=""><img src="images/brands5.png"></a>
-					<a href=""><img src="images/brands3.png"></a>
-					<a href=""><img src="images/brands4.png"></a>
-					<a href=""><img src="images/brands1.png"></a>
-				</div>
+				<ul class="brands" id="brands_1" style="display:block;">
+					<li><a href=""><img src="images/brands1.png"></a></li>
+					<li><a href=""><img src="images/brands2.png"></a></li>
+					<li><a href=""><img src="images/brands3.png"></a></li>
+					<li><a href=""><img src="images/brands4.png"></a></li>
+					<li><a href=""><img src="images/brands5.png"></a></li>
+				</ul>
+				<ul class="brands" id="brands_2" style="display:none;">
+					<li><a href=""><img src="images/brands5.png"></a></li>
+					<li><a href=""><img src="images/brands3.png"></a></li>
+					<li><a href=""><img src="images/brands2.png"></a></li>
+					<li><a href=""><img src="images/brands1.png"></a></li>
+					<li><a href=""><img src="images/brands4.png"></a></li>
+				</ul>
+				<ul class="brands" id="brands_3" style="display:none;">
+					<li><a href=""><img src="images/brands2.png"></a></li>
+					<li><a href=""><img src="images/brands5.png"></a></li>
+					<li><a href=""><img src="images/brands3.png"></a></li>
+					<li><a href=""><img src="images/brands4.png"></a></li>
+					<li><a href=""><img src="images/brands1.png"></a></li>
+				</ul>
 			</div>
 
 		<div class="footer_container">
 			<div class="footer_part">
-				<div class="part1_1"><img src="images/logo2.png"></div>
+				<div class="part1_1"><a href=""><img src="images/logo2.png"></a></div>
 				<div class="part1_2"><p>Follow &nbsp Us</p></div>
 				<div class="part1_3">
-					<a href=""><img src="images/label2.png"></a>
-					<a href=""><img src="images/label3.png"></a>
-					<a href=""><img src="images/label4.png"></a>
-					<a href=""><img src="images/label5.png"></a>
-					<a href=""><img src="images/label6.png"></a>
+					<ul>
+						<li><a href=""><img src="images/label2.png" alt=""></a></li>
+						<li><a href=""><img src="images/label3.png" alt=""></a></li>
+						<li><a href=""><img src="images/label4.png" alt=""></a></li>
+						<li><a href=""><img src="images/label5.png" alt=""></a></li>
+						<li><a href=""><img src="images/label6.png" alt=""></a></li>
+					</ul>
 				</div>
 			</div>
 
 			<div class="footer_part2">
 				<div class="part2_1"><p>Recent &nbsp Posts</p></div>
-				<div class="part2_2"><img src="images/new_camera_set.png"></div>
-				<div class="part2_3"><img src="images/special_camera_lenses.png"></div>
+				<ul>
+					<li><div class="part2_2"><img src="images/new_camera_set.png"></div></li>
+					<li><div class="part2_3"><img src="images/special_camera_lenses.png"></div></li>
+				</ul>
+				
+				
 			</div>
 
 			<div class="footer_part3">
@@ -269,11 +264,12 @@
 					info@premiumcoding.com
 				</div>
 			</div>
-
 			<div class="footer_part4">
 				<div class="part4_1"><strong>What &nbsp People &nbsp Say</strong></div>
-				<div class="part4_2"><img src="images/say1.png"></div>
-				<div class="part4_3"><img src="images/say2.png"></div>
+				<ul>
+					<li><div class="part4_2"><img src="images/say1.png"></div></li>
+					<li><div class="part4_3"><img src="images/say2.png"></div></li>
+				</ul>
 			</div>
 		</div>
 	</div>

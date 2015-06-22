@@ -188,8 +188,15 @@ a:hover{
 	.arrow{
 		float: left;
 		margin-left: 730px;
+		cursor: pointer;
 	}
 
+.form_search input{
+	width: 150px;
+	height: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
 
 .featured_title{
 	width: 300px;
@@ -284,6 +291,9 @@ a:hover{
 	float: left;
 	margin-top: 30px;
 }
+.brands li{
+	float: left;
+}
 
 /*footer_container*/
 
@@ -310,6 +320,10 @@ a:hover{
 		margin-top: 20px;
 
 	}
+	.part1_3 li{
+		float: left;
+		margin-right: 10px;
+	}
 
 .footer_part2{
 	float: left;
@@ -322,10 +336,12 @@ a:hover{
 
 	.part2_2{
 		margin-top: 20px;
+		float: left;
 	}
 
 	.part2_3{
 		margin-top: 10px;
+		float: left;
 	}
 
 .footer_part3{
@@ -352,10 +368,12 @@ a:hover{
 
 	.part4_2{
 		margin-top: 20px;
+		float: left;
 	}
 
 	.part4_3{
 		margin-top: 20px;
+		float: left;
 	}
 
 
@@ -427,6 +445,7 @@ hr .line{
 }
 .email{
 	width: 500px;
+	margin-left: -66px;
 }
 .form_right{
 	float: right;
@@ -561,80 +580,77 @@ hr .line{
 
 .main{
 	width: 1350px;
+	/*height: 500px;*/
 }
 
 .product-category{
-	width: 840px;
+	
+	float: left;
+}
+
+.aaa{
 	float: left;
 }
 
 .first-items{
-	width: 840px;
+	width: 250px;
+	margin-left: 10px;
+	margin-top: 50px;
+	margin-bottom: 80px;
 	float: left;
 }
 
 .last-items{
-	width: 840px;
+	width: 250px;
+	margin-left: 10px;
+	margin-top: 50px;
+	margin-bottom: 80px;
 	float: left;
 }
 
-.first-items>li{
+.first-items>li>a>img{
 	float: left;
-	width: 200px;
-	margin-left: 80px;
+	margin-left: 10px;
 	margin-top: 50px;
-	margin-bottom: 90px;
+	margin-bottom: 80px;
 }
 
-.last-items>li{
+.last-items>li>a>img{
 	float: left;
-	width: 200px;
-	margin-left: 80px;
+	margin-left: 10px;
 	margin-top: 50px;
-	margin-bottom: 90px;
+	margin-bottom: 80px;
 }
+
 
 .product_content{
-	text-align: left;
-	margin-top: 65px;
-	float: left;
+	/*text-align: left;*/
+	margin-top: 20px;
+	
+	
 }
 .product_content p{
 	margin-top: 5px;
-	color: red;
-
+	color: black;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 20px;
 }
 .money{
 	color: black;
 	font-weight: bold;
 }
-
-nav{
+.add_button{
 	display: block;
-    float: left;
-    width: 100px;
-    margin-bottom: 30px;
-}
-.toggle{
 	width: 100px;
+	height: 20px;
+	background-color: red;
+	text-align: center; 
+	color: white;
+	font-size: 12px;
+	line-height: 20px;
 }
-.droplist{
-	width: 100px;
-}
-.droplist .small>img{
-	height: 75%;
-	width: 75%;
-}
-.droplist ul{
-    margin: 0;
-    padding: 0;
-}
-.droplist li{
-    float: left;
-    color: #FFF;
-    list-style: none;
-}
-.droplist img{
-	margin-left: 20px;
-	margin-top: 10px;
+
+.add_button a:visited{
+	color: white;
 }
